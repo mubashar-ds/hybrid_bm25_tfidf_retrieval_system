@@ -39,6 +39,20 @@ python -m spacy download en_core_web_sm
 
 ### 2.4 Run Scripts
 
+#### 2.4.0 One-Command Reproduction (run_all.py)
+
+A `run_all.py` script is included in this repository to reproduce the entire IR system automatically.  
+Running this script will execute the full pipeline in the correct order:
+
+1. Preprocessing (preprocessing.py)  
+2. Index construction (indexes_building.py)  
+3. Evaluation (evaluating.py)
+
+Use the following command:
+
+```
+python run_all.py
+```
 #### 2.4.0. Preprocessed Dataset & Precomputed Indexes
 
 This repo includes preprocessed data and prebuilt index files so you can skip running the preprocessing and index-building scripts.
