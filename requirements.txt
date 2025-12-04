@@ -1,0 +1,22 @@
+# core data dcience stack -----
+numpy==1.26.4
+scipy
+pandas
+scikit-learn
+
+# visualization for evaluation ---- 
+matplotlib
+seaborn
+
+# IR specific libraries ----
+rank-bm25==0.2.2
+
+# preprocessing & utility ----
+regex
+tqdm
+pyspellchecker
+
+# advanced NLP for preprocessing & feature engineering ----
+spacy 
+# (i downloaded 'en_core_web_sm' as command 'python -m spacy download en_core_web_sm')
+# verify using - 'python -c "import spacy; print(f'spaCy version: {spacy.__version__}'); nlp = spacy.load('en_core_web_sm'); print('Model loaded successfully.')" 
