@@ -39,6 +39,10 @@ python -m spacy download en_core_web_sm
 
 ### 2.4 Run Scripts
 
+#### 2.4.0. Preprocessed Dataset & Precomputed Indexes
+
+This repo includes preprocessed data and prebuilt index files so you can skip running the preprocessing and index-building scripts.
+
 #### 2.4.1. Preprocessing
 
 Run manually:
